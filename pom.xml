@@ -15,5 +15,6 @@
     <modules>
         <module>morse-user</module>
         <module>eureka-server</module>
+        <module>morse-product</module>
     </modules>
 </project>
