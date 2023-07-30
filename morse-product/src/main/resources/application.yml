@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: '@project.artifactId@' # 在eureka中此值作为集群id,在发现服务时使用
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
