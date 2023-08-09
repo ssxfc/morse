@@ -16,6 +16,7 @@
         <module>morse-user</module>
         <module>eureka-server</module>
         <module>morse-product</module>
+        <module>morse-tools</module>
     </modules>
 
     <build>
@@ -29,6 +30,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>
+                <version>3.1.0</version>
             </plugin>
         </plugins>
         <resources>
