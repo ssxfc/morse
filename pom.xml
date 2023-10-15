@@ -5,18 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.microservice.it</groupId>
-        <artifactId>morse-common</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <artifactId>common</artifactId>
+        <version>1.0.0</version>
     </parent>
     <groupId>com.morse.it</groupId>
     <artifactId>morse</artifactId>
-    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <modules>
         <module>morse-user</module>
         <module>eureka-server</module>
         <module>morse-product</module>
-        <module>morse-tools</module>
     </modules>
 
     <build>
