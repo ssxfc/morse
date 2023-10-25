@@ -1,0 +1,8 @@
+eureka:
+  client:
+    fetch-registry: false # 是否获取注册信息, 目前只有自己一个eureka-server，无需同步注册信息
+    register-with-eureka: true # 是否注册到eureka， 因为自己就是eureka-server所以无需注册
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  instance:
+    hostname: localhost
