@@ -11,6 +11,11 @@ spring:
           predicates:
             #以下是断言条件，必选全部符合条件
             - Path=/user/**
+        - id: productService
+          uri: lb://morse-product
+          predicates:
+            #以下是断言条件，必选全部符合条件
+            - Path=/product/**
 eureka:
   client:
     service-url:
