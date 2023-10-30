@@ -16,7 +16,7 @@ spring:
           predicates:
             #以下是断言条件，必选全部符合条件
             - Path=/product/**
-eur eka:
+eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
