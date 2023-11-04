@@ -17,6 +17,7 @@
         <module>eureka-server</module>
         <module>morse-product</module>
         <module>micro-gateway</module>
+        <module>study-spring</module>
     </modules>
 
     <build>
