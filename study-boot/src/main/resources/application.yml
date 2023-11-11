@@ -1,0 +1,9 @@
+server:
+  port: 8011
+  servlet:
+    context-path: /
+spring:
+  application:
+    name: '@project.artifactId@'
+  profiles:
+    active: ${env}

@@ -18,6 +18,7 @@
         <module>morse-product</module>
         <module>micro-gateway</module>
         <module>study-spring</module>
+        <module>study-boot</module>
     </modules>
 
     <build>
